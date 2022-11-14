@@ -150,6 +150,9 @@ output {
   height: 100%;
   cursor: pointer;
 }
+.label:hover {
+  color: rgb(rgb(111, 0, 255));
+}
 .filters {
   width: 100%;
   max-width: 40%;
@@ -236,22 +239,22 @@ img {
   -webkit-text-stroke-width: 1px;
   color: rgb(1, 155, 155);
 }
-.rss {
+.vk {
   display: block;
   position: relative;
   font-family: 'Open Sans', sans-serif;
   width: 86px;
   height: 32px;
-  background-image: url('assets/svg/rss.svg');
+  background-image: url('assets/svg/vk.svg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left center;
   padding-right: 108px;
 }
-.rss-year {
+.vk-page {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 5px;
+  right: -50px;
   font-size: 21px;
   letter-spacing: -2px;
   color: #262c31;
@@ -261,12 +264,12 @@ img {
   font-weight: bold;
   transition: 0.3s;
 }
-.rss:hover .rss-year {
-  right: -5px;
+.vk:hover .vk-page {
+  right: -80px;
   -webkit-text-stroke-color: #ffffff;
-  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-width: 0.6px;
   letter-spacing: 0;
-  color: #cbd5de;
+  color: #379df7;
 }
 @media (max-width: 1024px) {
   .main {
